@@ -1,0 +1,10 @@
+1.What happens when the number of hidden nodes increase?
+
+It increases the network's capacity and it can learn more complex patterns.
+It increases training accuracy usually ad hidden units grow with enough units and it may reach ~100%.
+
+2.Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+With very few hidden units - Both train and test accuracy are low(underfitting)
+With moderate hidden units - test accuracy peaks(best generalization)
+With very many hidden units - Training accuracy stays high but test accuracy can drop slightly(risk of overfitting, Regularization and more data can help.)
